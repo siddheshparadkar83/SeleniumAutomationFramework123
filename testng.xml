@@ -1,5 +1,7 @@
 <suite name="login suite">
 	<test name="login tests">
+	<parameter name="username" value="username1"/>
+	<parameter name="password" value="Pass1"/>
 		<classes>
 			<class name="test.LoginTest" />
 		</classes>
